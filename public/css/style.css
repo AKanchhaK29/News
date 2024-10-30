@@ -49,6 +49,13 @@ footer p {
     margin: 0;
 }
 
+.copyLink{
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0;
+}
+
 /* Form Styles */
 form {
     margin: auto;

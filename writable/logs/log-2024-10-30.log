@@ -1,0 +1,28 @@
+CRITICAL - 2024-10-30 18:55:22 --> ErrorException: Cannot declare class App\Controllers\BaseController, because the name is already in use
+[Method: GET, Route: /]
+in APPPATH\Controllers\BaseController.php on line 37.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-10-30 18:55:23 --> ErrorException: Cannot declare class App\Controllers\BaseController, because the name is already in use
+[Method: GET, Route: /]
+in APPPATH\Controllers\BaseController.php on line 37.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-10-30 18:55:25 --> ErrorException: Cannot declare class App\Controllers\BaseController, because the name is already in use
+[Method: GET, Route: /]
+in APPPATH\Controllers\BaseController.php on line 37.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-10-30 18:55:26 --> ErrorException: Cannot declare class App\Controllers\BaseController, because the name is already in use
+[Method: GET, Route: /]
+in APPPATH\Controllers\BaseController.php on line 37.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-10-30 18:56:35 --> ErrorException: Cannot declare class App\Controllers\BaseController, because the name is already in use
+[Method: GET, Route: /]
+in APPPATH\Controllers\BaseController.php on line 37.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-10-30 18:58:50 --> ErrorException: Cannot declare class App\Controllers\BaseController, because the name is already in use
+[Method: GET, Route: /]
+in APPPATH\Controllers\BaseController.php on line 37.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-10-30 18:58:51 --> ErrorException: Cannot declare class App\Controllers\BaseController, because the name is already in use
+[Method: GET, Route: /]
+in APPPATH\Controllers\BaseController.php on line 37.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()

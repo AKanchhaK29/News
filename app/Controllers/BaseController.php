@@ -9,6 +9,21 @@ use CodeIgniter\HTTP\RequestInterface;
 use CodeIgniter\HTTP\ResponseInterface;
 use Psr\Log\LoggerInterface;
 
+
+// abstract class BaseController extends Controller
+// {
+//     protected $request;
+
+//     // Add 'url' to the helpers array
+//     protected $helpers = ['url'];
+
+//     public function initController(RequestInterface $request, ResponseInterface $response, LoggerInterface $logger)
+//     {
+//         // Do Not Edit This Line
+//         parent::initController($request, $response, $logger);
+//     }
+// }
+
 /**
  * Class BaseController
  *

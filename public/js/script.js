@@ -39,3 +39,29 @@ document.addEventListener('DOMContentLoaded', function() {
     // Example usage (replace with actual weather data)
     updateWeather('sunny', 28);
 });
+
+// ...Structure part...
+
+//JavaScript to Copy Link
+    function copyLink() {
+        const dummy = document.createElement('input');
+        const text = window.location.href;
+        document.body.appendChild(dummy);
+        dummy.value = text;
+        dummy.select();
+        document.execCommand('copy');
+        document.body.removeChild(dummy);
+        alert('Link copied to clipboard!');
+    }
+
+//Javascript to share a link of news
+function sharePage() {
+    if (navigator.share) {
+        navigator.share({
+            title: 'Arya Prawah',
+            url: window.location.href
+        }).catch(console.error);
+    } else {
+        alert('Share not supported on this browser.');
+    }
+}
