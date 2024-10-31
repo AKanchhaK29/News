@@ -542,3 +542,49 @@ header h1 {
     left: 240px;  
     right: 0;
 }
+
+
+/* News Card Container */
+#newsList .card {
+    height: 400px; /* Set a fixed height for each card */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Image Styling */
+#newsList .card-img-top {
+    height: 150px; /* Fixed height for images */
+    object-fit: cover; /* Crop image if it exceeds set dimensions */
+}
+
+/* Card Body Styling */
+#newsList .card-body {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#newsList .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0 0 5px 0;
+}
+
+#newsList .card-text {
+    font-size: 0.9rem;
+    color: #555;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3; /* Limit description to 3 lines */
+    line-clamp: 3; /* Standard property */
+    height: calc(1.4em * 3); /* Adjust for 3 lines with line-height */
+    line-height: 1.4;
+    margin: 0;
+}
+
+.read-more-btn {
+    margin-top: 10px;
+}
+
